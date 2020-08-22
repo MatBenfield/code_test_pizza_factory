@@ -15,7 +15,7 @@ namespace PizzaFactoryConsole
         private static readonly ILog Log = LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
         static void Main(string[] args)
         {
-            WriteLine("UCAS Pizza Factory");
+            WriteLine("Pizza Factory");
 
             var numberOfPizzas = Config.NumberOfPizzas;
             var pizzaList = Config.PizzaList;

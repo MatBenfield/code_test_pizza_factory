@@ -13,7 +13,7 @@ namespace PizzaFactoryLibTests
     class ProgramTests
     {
         [Test]
-        public void GetRandomItemFromList_RetunsItemFromList()
+        public void GetRandomItemFromList_ReturnsItemFromList()
         {
             var pizzaList = new List<string> {"Stuffed Crust", "Deep Pan", "Thin and Crispy"};
             var item = Program.GetRandomItemFromList(pizzaList);
