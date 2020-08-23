@@ -2,5 +2,7 @@
 
 Create a Pizza oven for a number of pizza bases, toppings and given the details calculate the cooking time.
 
-- .net framework 4.6.1
+## Stack
+
+- C# .net framework 4.6.1
 - nunit
